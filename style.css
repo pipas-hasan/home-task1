@@ -2,4 +2,63 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Work Sans;
 }
+
+.banner-container{
+    background: url('./images/banner2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+.banner-content{
+    position: absolute;
+    text-align: right;
+    float: right;
+    width: 600px;
+    top: 50%;
+    right: 0%;
+    transform: translate(-50%, -50%);
+    margin-top: 60px;
+}
+
+
+
+.banner-title{
+    color: #151414;
+    font-size: 65px;
+    font-weight: 700;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+.banner-text{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 15px;
+    margin-bottom: 28px;
+}
+
+.btn{
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFF;
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    background: #F15B22;
+    border: none;
+}
+
+
+/*------- main section---------- */
+.main-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
